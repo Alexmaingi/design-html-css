@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Bodoni Moda", serif;
+  font-family: "Nunito", sans-serif;
+}
+/* body style */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* container style */
+.container {
+  height: 24rem;
+  width: 34rem;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  box-shadow: 5px 10px 10px #eaf0fc;
+}
+
+/* first card style */
+
+.card1 {
+  height: 25.4rem;
+  width: 18rem;
+  border-radius: 30px;
+  margin: -10px;
+  background-color: #6441fd;
+  background: linear-gradient(#6441fd, rgba(70, 51, 237, 255));
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #cbbeff;
+  padding: 10px;
+  margin-left: 5rem;
+  margin-top: 1.7rem;
+}
+.card-marks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin-left: 4rem;
+  margin-top: 0rem;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  background: linear-gradient(
+    rgba(73, 37, 207, 255),
+    rgba(70, 51, 237, 255),
+    rgba(70, 51, 237, 255)
+  );
+}
+.card-marks h1 {
+  color: white;
+  font-size: 4rem;
+  margin-top: 0rem;
+}
+.card-marks p {
+  margin-top: -4rem;
+  color: #8476ff;
+  font-size: 10px;
+  display: flex;
+}
+.card1 h2 {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 7rem;
+}
+.card1 p {
+  color: #c4c2ff;
+  font-size: 5px;
+  margin-left: 3.4rem;
+  margin-right: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+/* second card style */
+
+.card2 {
+  height: 25.4rem;
+  width: 18rem;
+  border-radius: 30px;
+  margin: -10px;
+  margin-left: 0.75rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  height: 22rem;
+  width: 14rem;
+}
+.content h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2e344c;
+  padding: 10px;
+  margin-top: 0rem;
+}
+.tab-1 {
+  width: 13rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  align-items: center;
+  background-color: #fff6f5;
+}
+.tab-1 h1 {
+  font-size: 4px;
+  margin-top: 3px;
+  color: #db6e6c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tab-1 img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+/* .tab-1 p {
+  color: #2e344c;
+  margin-left: 2rem;
+  font-size: 4px;
+} */
+.tab-2 {
+  width: 13rem;
+  height: 2.5rem;
+  margin-top: 1.5rem;
+  margin-left: 0.7rem;
+  border-radius: 8px;
+  color: #ecc167;
+  display: flex;
+  align-items: center;
+  background-color: #fffbf2;
+}
+.tab-2 h1 {
+  font-size: 4px;
+  margin-top: 3px;
+  color: #ecb444;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tab-2 img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+
+.tab-3 {
+  width: 13rem;
+  height: 2.5rem;
+  margin-top: 1.5rem;
+  margin-left: 0.7rem;
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  align-items: center;
+  background-color: #f2fbfa;
+}
+.tab-3 h1 {
+  font-size: 4px;
+  margin-top: 3px;
+  color: #63b4a6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tab-3 img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+
+.tab-4 {
+  width: 13rem;
+  height: 2.5rem;
+  margin-top: 1.5rem;
+  margin-left: 0.7rem;
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  align-items: center;
+  background-color: #f3f3fd;
+}
+.tab-4 h1 {
+  font-size: 4px;
+  margin-top: 3px;
+  color: #313abb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tab-4 img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+
+button {
+  padding: 10px;
+  margin-top: 1.5rem;
+  width: 12.5rem;
+  margin-left: 1rem;
+  border-radius: 20px;
+  background-color: #303b59;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
