@@ -68,8 +68,10 @@ body {
 .card-marks p {
   margin-top: -4rem;
   color: #8476ff;
-  font-size: 10px;
-  display: flex;
+  font-size: 8px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 .card1 h2 {
   color: white;
