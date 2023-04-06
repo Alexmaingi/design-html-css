@@ -65,7 +65,7 @@ body {
   font-size: 4rem;
   margin-top: 0rem;
 }
-.card-marks p {
+.card-marks span {
   margin-top: -4rem;
   color: #8476ff;
   font-size: 8px;
