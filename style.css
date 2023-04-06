@@ -32,8 +32,8 @@ body {
   width: 18rem;
   border-radius: 30px;
   margin: -10px;
-  background-color: #6441fd;
-  background: linear-gradient(#6441fd, rgba(70, 51, 237, 255));
+  /* background-color: #6441fd; */
+  background: linear-gradient(#6441fd, rgba(73, 37, 207, 255));
 }
 .card-title {
   font-size: 18px;
@@ -54,11 +54,7 @@ body {
   border-radius: 50%;
   height: 90px;
   width: 90px;
-  background: linear-gradient(
-    rgba(73, 37, 207, 255),
-    rgba(70, 51, 237, 255),
-    rgba(70, 51, 237, 255)
-  );
+  background: linear-gradient(rgba(73, 37, 207, 255), rgba(70, 51, 237, 255));
 }
 .card-marks h1 {
   color: white;
